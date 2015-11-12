@@ -12,9 +12,7 @@ function myFunction() {
 		alert("Good Job! You win! The number is" + " " + number);
 		wins += 1;
 		
-	}
-
-	else if (guess !== number) { 
+	} else if (guess !== number) { 
 		
 		alert("You Lose! the correct answer is" + " " + number);
 		losses += 1;
@@ -23,10 +21,10 @@ function myFunction() {
 	console.log("losses", losses);
 	console.log("wins", wins);
 
-
 var el = document.getElementById('wins');
 el.innerHTML = wins;
 
 var el2 = document.getElementById('losses');
 el2.innerHTML = losses;
-	}
+
+}
